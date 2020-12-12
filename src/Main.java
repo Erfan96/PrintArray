@@ -13,5 +13,8 @@ public class Main {
         sample.printArray(characters, 1, 6);
         sample.printArray(integers, 1, 6);
         sample.printArray(doubles,1, 5);
+
+        String[] strings = {"Ali", "Karim", "Hasan", "Maria", "Samir", "Lisa", "Parviz"};
+        sample.printArray(strings);
     }
 }
