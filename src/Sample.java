@@ -1,9 +1,8 @@
 
 public class Sample {
     public <T> void printArray(T[] array) {
-        for (T arr : array) {
+        for (T arr : array)
             System.out.println(arr);
-        }
 
     }
 
@@ -12,10 +11,15 @@ public class Sample {
             throw new IllegalArgumentException("Has illegalArgumentException .");
 
         else {
-            for (int i=lowSubscript ; i<=highSubscript ; i++){
+            for (int i=lowSubscript ; i<=highSubscript ; i++)
                 System.out.println(array[i - 1]);
-            }
         }
+    }
+
+    public void printArray(String[] strings){
+        for (String str : strings)
+            System.out.println(str);
+
     }
 
 }
